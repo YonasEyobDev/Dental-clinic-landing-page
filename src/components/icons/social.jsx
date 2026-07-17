@@ -26,3 +26,11 @@ export function Twitter(props) {
     </svg>
   )
 }
+
+export function TikTok(props) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
+      <path d="M16.5 3c.4 2.1 1.9 3.7 4 4v3c-1.5 0-2.9-.4-4-1.2V15a6 6 0 1 1-6-6c.3 0 .7 0 1 .1v3.1a3 3 0 1 0 2 2.8V3h3z" />
+    </svg>
+  )
+}

@@ -30,17 +30,20 @@ export default function Contact() {
             <div className="flex items-start gap-3">
               <MapPin className="mt-0.5 h-5 w-5 text-[var(--brand-teal)]" />
               <span className="text-sm text-[var(--brand-ink)]/80">
-                123 Bole Road, Addis Ababa, Ethiopia
+                Bole, Shewa Dabo, Getu Commercial Centre, 3rd floor, Addis Ababa
               </span>
             </div>
             <div className="flex items-start gap-3">
               <Phone className="mt-0.5 h-5 w-5 text-[var(--brand-teal)]" />
-              <span className="text-sm text-[var(--brand-ink)]/80">+251 11 234 5678</span>
+              <span className="text-sm text-[var(--brand-ink)]/80">
+                0910 363238 / 0975 852323
+              </span>
             </div>
             <div className="flex items-start gap-3">
               <Clock className="mt-0.5 h-5 w-5 text-[var(--brand-teal)]" />
               <span className="text-sm text-[var(--brand-ink)]/80">
-                Mon–Fri 8am–6pm · Sat 9am–3pm
+                {/* Placeholder hours — confirm real opening hours with the clinic */}
+                Mon–Sat, appointment required
               </span>
             </div>
           </div>

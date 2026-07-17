@@ -18,10 +18,10 @@ export default function About() {
             Committed to Healthy Smiles
           </h2>
           <p className="mt-4 max-w-md text-[15px] text-[var(--muted-foreground)]">
-            At Brightsmile, we've been helping people achieve healthy,
-            beautiful smiles for over 10 years. Our friendly team of dentists
-            uses the latest technology to provide comfortable and effective
-            treatments.
+            Dr. Euel Lewi Speciality Dental Clinic has helped thousands of
+            patients — and hundreds of thousands online — achieve confident,
+            natural-looking smiles through precise veneer work, restorative
+            care, and honest treatment plans.
           </p>
           <Button
             asChild

@@ -1,12 +1,26 @@
-import { Sparkles, Smile, Stethoscope, Baby, Wrench, Zap } from "lucide-react"
+import { Sparkles, Smile, Gem, Stethoscope, Wrench } from "lucide-react"
 
 export const services = [
   {
-    id: "checkup",
-    icon: Stethoscope,
-    title: "General Checkup",
+    id: "veneers",
+    icon: Gem,
+    title: "Veneers",
     description:
-      "Routine exams and cleanings to catch issues early and keep your smile healthy year-round.",
+      "Custom porcelain veneers that reshape, brighten, and even out your smile in a few visits.",
+  },
+  {
+    id: "smile-makeover",
+    icon: Sparkles,
+    title: "Smile Makeover",
+    description:
+      "A full treatment plan combining veneers, whitening, and shaping for a complete transformation.",
+  },
+  {
+    id: "crowns",
+    icon: Smile,
+    title: "Crowns & Bridges",
+    description:
+      "Durable, natural-looking crowns and bridges that restore damaged or missing teeth.",
   },
   {
     id: "whitening",
@@ -16,31 +30,17 @@ export const services = [
       "Professional-grade whitening that lifts years of stains in a single, comfortable visit.",
   },
   {
-    id: "orthodontics",
-    icon: Smile,
-    title: "Orthodontics",
-    description:
-      "Braces and clear aligners tailored to your bite, for a straighter smile at any age.",
-  },
-  {
-    id: "pediatric",
-    icon: Baby,
-    title: "Pediatric Dentistry",
-    description:
-      "Gentle, patient-first care that helps kids build good habits without the fear.",
-  },
-  {
     id: "restorative",
     icon: Wrench,
     title: "Restorative Care",
     description:
-      "Fillings, crowns, and root canals done with precision, so you keep your natural teeth longer.",
+      "Fillings, root canals, and repairs done with precision, so you keep your natural teeth longer.",
   },
   {
-    id: "emergency",
-    icon: Zap,
-    title: "Emergency Dentistry",
+    id: "checkup",
+    icon: Stethoscope,
+    title: "General Checkup",
     description:
-      "Same-day appointments for chipped teeth, sudden pain, or anything that can't wait.",
+      "Routine exams and cleanings to catch issues early and keep your smile healthy year-round.",
   },
 ]

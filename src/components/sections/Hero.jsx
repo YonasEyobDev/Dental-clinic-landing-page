@@ -23,8 +23,8 @@ export default function Hero() {
               ))}
             </div>
             <div className="leading-tight">
-              <p className="text-sm font-semibold text-[var(--brand-ink)]">20k+</p>
-              <p className="text-xs text-[var(--muted-foreground)]">Happy Client</p>
+              <p className="text-sm font-semibold text-[var(--brand-ink)]">50k+</p>
+              <p className="text-xs text-[var(--muted-foreground)]">Followers Trust Us</p>
             </div>
           </div>
 
@@ -33,9 +33,9 @@ export default function Hero() {
           </h1>
 
           <p className="mt-5 max-w-md text-[15px] text-[var(--muted-foreground)]">
-            Experience modern dentistry designed for every smile. From
-            routine checkups to advanced treatments, we make your dental
-            health simple and stress-free.
+            From veneers to full smile makeovers, Dr. Euel Lewi brings the
+            transformations you've seen on TikTok into a real clinic — right
+            here in Bole, Addis Ababa.
           </p>
 
           <Button
@@ -66,12 +66,12 @@ export default function Hero() {
           <div className="absolute bottom-4 left-4 flex items-center gap-2 rounded-2xl bg-white/95 p-2 pr-4 shadow-sm backdrop-blur">
             <Avatar className="h-10 w-10">
               <AvatarImage
-                src="https://images.unsplash.com/photo-1588776814546-daab30f310ce?w=100&h=100&fit=crop&crop=faces&auto=format&q=60"
-                alt="Dr. Sarah Khan"
+                src="https://images.unsplash.com/photo-1581585004042-bca38021ce1e?w=100&h=100&fit=crop&crop=faces&auto=format&q=60"
+                alt="Dr. Euel Lewi"
               />
-              <AvatarFallback>SK</AvatarFallback>
+              <AvatarFallback>EG</AvatarFallback>
             </Avatar>
-            <p className="text-xs font-medium text-[var(--brand-ink)]">Dr. Sarah Khan</p>
+            <p className="text-xs font-medium text-[var(--brand-ink)]">Dr. Euel Lewi</p>
           </div>
 
           <div className="absolute bottom-4 right-4 max-w-[9.5rem] rounded-2xl bg-[var(--brand-coral)] p-3 text-white shadow-sm">

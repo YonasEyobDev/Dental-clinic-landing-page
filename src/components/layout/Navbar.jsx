@@ -24,7 +24,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-[var(--border)] bg-[var(--brand-cream)]/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a href="#" className="font-display text-xl font-semibold text-[var(--brand-ink)]">
-          Bright<span className="text-[var(--brand-coral)]">smile</span>
+          Lewi<span className="text-[var(--brand-coral)]">Dental</span>
         </a>
 
         <nav className="hidden gap-8 md:flex">
@@ -53,7 +53,7 @@ export default function Navbar() {
           </SheetTrigger>
           <SheetContent side="right" className="bg-[var(--brand-cream)]">
             <SheetHeader>
-              <SheetTitle className="font-display">Brightsmile</SheetTitle>
+              <SheetTitle className="font-display">Lewi Dental</SheetTitle>
             </SheetHeader>
             <nav className="mt-6 flex flex-col gap-5 px-4">
               {links.map((link) => (

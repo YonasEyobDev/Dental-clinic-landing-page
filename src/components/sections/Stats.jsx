@@ -1,6 +1,8 @@
+// NOTE: TikTok/Facebook follower counts below are real (as of this build).
+// Swap "Years of Excellence" for the clinic's actual founding year before sending this.
 const stats = [
-  { value: "5k+", label: "Happy Patients" },
-  { value: "1k+", label: "Successful Treatments" },
+  { value: "54K+", label: "TikTok Followers" },
+  { value: "47K+", label: "Facebook Followers" },
   { value: "10+", label: "Years of Excellence" },
 ]
 
