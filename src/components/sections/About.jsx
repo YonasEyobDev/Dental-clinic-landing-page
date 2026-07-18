@@ -28,7 +28,9 @@ export default function About() {
             className="mt-6 rounded-full bg-[var(--brand-ink)] px-5 text-white hover:bg-[var(--brand-teal-light)]"
           >
             <a href="#contact">
-              Learn More <ArrowRight className="ml-1 h-4 w-4" />
+              <span className="inline-flex items-center gap-1">
+                Learn More <ArrowRight className="h-4 w-4" />
+              </span>
             </a>
           </Button>
         </div>

@@ -44,7 +44,9 @@ export default function Hero() {
             className="mt-7 rounded-full bg-[var(--brand-ink)] px-6 text-white hover:bg-[var(--brand-teal-light)]"
           >
             <a href="#contact">
-              Book Appointment <ArrowRight className="ml-1 h-4 w-4" />
+              <span className="inline-flex items-center gap-1">
+                Book Appointment <ArrowRight className="h-4 w-4" />
+              </span>
             </a>
           </Button>
         </div>
@@ -60,7 +62,9 @@ export default function Hero() {
             href="#contact"
             className="absolute right-4 top-4 flex items-center gap-1 rounded-full bg-white/95 px-4 py-2 text-sm font-medium text-[var(--brand-ink)] shadow-sm backdrop-blur transition hover:bg-white"
           >
-            Contact <ArrowRight className="h-3.5 w-3.5" />
+            <span className="inline-flex items-center gap-1">
+              Contact <ArrowRight className="h-3.5 w-3.5" />
+            </span>
           </a>
 
           <div className="absolute bottom-4 left-4 flex items-center gap-2 rounded-2xl bg-white/95 p-2 pr-4 shadow-sm backdrop-blur">

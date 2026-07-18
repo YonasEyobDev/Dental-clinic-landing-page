@@ -44,8 +44,10 @@ export default function Doctors() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Instagram className="mr-2 h-4 w-4" />
-            See more smile transformations <ArrowRight className="ml-1 h-4 w-4" />
+            <span className="inline-flex items-center gap-1">
+              <Instagram className="h-4 w-4" />
+              See more smile transformations <ArrowRight className="h-4 w-4" />
+            </span>
           </a>
         </Button>
       </div>

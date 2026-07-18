@@ -42,7 +42,9 @@ export default function Services() {
               className="mt-4 rounded-full bg-[var(--brand-ink)] px-5 text-white hover:bg-[var(--brand-teal-light)]"
             >
               <a href="#contact">
-                See All Services <ArrowRight className="ml-1 h-4 w-4" />
+                <span className="inline-flex items-center gap-1">
+                  See All Services <ArrowRight className="h-4 w-4" />
+                </span>
               </a>
             </Button>
           </div>
