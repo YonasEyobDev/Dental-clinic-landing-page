@@ -18,7 +18,7 @@ export default function FAQ() {
         </h2>
       </div>
 
-      <Accordion type="single" collapsible className="mt-10">
+      <Accordion className="mt-10">
         {faqs.map((faq) => (
           <AccordionItem key={faq.id} value={faq.id} className="border-[var(--border)]">
             <AccordionTrigger className="text-left font-display text-base font-medium text-[var(--brand-ink)]">

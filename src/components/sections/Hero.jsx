@@ -39,15 +39,12 @@ export default function Hero() {
           </p>
 
           <Button
-            asChild
+            render={<a href="#contact" />}
+            nativeButton={false}
             size="lg"
             className="mt-7 rounded-full bg-[var(--brand-ink)] px-6 text-white hover:bg-[var(--brand-teal-light)]"
           >
-            <a href="#contact">
-              <span className="inline-flex items-center gap-1">
-                Book Appointment <ArrowRight className="h-4 w-4" />
-              </span>
-            </a>
+            Book Appointment <ArrowRight className="h-4 w-4" />
           </Button>
         </div>
 

@@ -38,14 +38,11 @@ export default function Services() {
               See every way we can care for your smile
             </p>
             <Button
-              asChild
+              render={<a href="#contact" />}
+              nativeButton={false}
               className="mt-4 rounded-full bg-[var(--brand-ink)] px-5 text-white hover:bg-[var(--brand-teal-light)]"
             >
-              <a href="#contact">
-                <span className="inline-flex items-center gap-1">
-                  See All Services <ArrowRight className="h-4 w-4" />
-                </span>
-              </a>
+              See All Services <ArrowRight className="h-4 w-4" />
             </Button>
           </div>
 

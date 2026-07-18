@@ -39,16 +39,18 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden md:block">
-          <Button asChild className="bg-[var(--brand-coral)] hover:bg-[var(--brand-coral-dark)]">
-            <a href="#contact">Book Appointment</a>
+          <Button
+            render={<a href="#contact" />}
+            nativeButton={false}
+            className="bg-[var(--brand-coral)] hover:bg-[var(--brand-coral-dark)]"
+          >
+            Book Appointment
           </Button>
         </div>
 
         <Sheet open={open} onOpenChange={setOpen}>
-          <SheetTrigger asChild>
-            <Button variant="ghost" size="icon" className="md:hidden">
-              <Menu className="h-5 w-5" />
-            </Button>
+          <SheetTrigger render={<Button variant="ghost" size="icon" className="md:hidden" />}>
+            <Menu className="h-5 w-5" />
           </SheetTrigger>
           <SheetContent side="right" className="bg-[var(--brand-cream)]">
             <SheetHeader>
@@ -66,12 +68,11 @@ export default function Navbar() {
                 </a>
               ))}
               <Button
-                asChild
+                render={<a href="#contact" onClick={() => setOpen(false)} />}
+                nativeButton={false}
                 className="mt-2 bg-[var(--brand-coral)] hover:bg-[var(--brand-coral-dark)]"
               >
-                <a href="#contact" onClick={() => setOpen(false)}>
-                  Book Appointment
-                </a>
+                Book Appointment
               </Button>
             </nav>
           </SheetContent>

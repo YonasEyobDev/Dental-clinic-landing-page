@@ -11,11 +11,12 @@ export default function AppointmentCTA() {
           Same-week openings available. No account required to book.
         </p>
         <Button
-          asChild
+          render={<a href="#contact" />}
+          nativeButton={false}
           size="lg"
           className="bg-[var(--brand-ink)] text-[var(--brand-cream)] hover:bg-[var(--brand-ink)]/90"
         >
-          <a href="#contact">Book Your Appointment</a>
+          Book Your Appointment
         </Button>
       </div>
     </section>

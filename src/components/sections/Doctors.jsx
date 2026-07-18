@@ -35,20 +35,19 @@ export default function Doctors() {
         </div>
 
         <Button
-          asChild
+          render={
+            <a
+              href="https://www.instagram.com/dr.euellewispecialitydental"
+              target="_blank"
+              rel="noopener noreferrer"
+            />
+          }
+          nativeButton={false}
           variant="outline"
           className="rounded-full border-[var(--brand-ink)] text-[var(--brand-ink)] hover:bg-white"
         >
-          <a
-            href="https://www.instagram.com/dr.euellewispecialitydental"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="inline-flex items-center gap-1">
-              <Instagram className="h-4 w-4" />
-              See more smile transformations <ArrowRight className="h-4 w-4" />
-            </span>
-          </a>
+          <Instagram className="h-4 w-4" />
+          See more smile transformations <ArrowRight className="h-4 w-4" />
         </Button>
       </div>
     </section>
