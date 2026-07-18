@@ -5,7 +5,6 @@ import Stats from "@/components/sections/Stats"
 import Services from "@/components/sections/Services"
 import About from "@/components/sections/About"
 import Doctors from "@/components/sections/Doctors"
-import Testimonials from "@/components/sections/Testimonials"
 import FAQ from "@/components/sections/FAQ"
 import AppointmentCTA from "@/components/sections/AppointmentCTA"
 import Contact from "@/components/sections/Contact"
@@ -20,7 +19,6 @@ function App() {
         <Services />
         <About />
         <Doctors />
-        <Testimonials />
         <FAQ />
         <AppointmentCTA />
         <Contact />
